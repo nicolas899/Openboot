@@ -18,6 +18,9 @@ cursor.execute("INSERT INTO Alumnos VALUES(8,'Javier', 'Zanetti')")
 
 cone.commit()
 
+cursor.execute("SELECT * FROM Alumnos WHERE Nombre = 'Leo'")
+mostrar = cursor.fetchall()
+print(mostrar)
+
 cone.close()
 
-print(cone)
