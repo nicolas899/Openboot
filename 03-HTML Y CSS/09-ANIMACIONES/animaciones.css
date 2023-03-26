@@ -1,0 +1,25 @@
+.anima{
+    display: flex;
+    justify-content: center;
+
+}
+
+.btn-modern{
+    background-color: aqua;
+    width: 66pt;
+    height: 30pt;
+    border-radius: 8px;
+    
+    
+}
+
+.btn-modern:hover{
+    background-color: rgb(21, 194, 21);
+    color: rgb(251, 255, 13);
+    transform: translateY(-5px);
+    transition: all 0,4s;
+    border-bottom: 5px solid rgb(25, 99, 2);
+
+    
+
+}
