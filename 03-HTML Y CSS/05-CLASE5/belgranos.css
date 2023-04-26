@@ -1,0 +1,11 @@
+.flexbelgrano{
+    display: flex;
+    background-color: white;
+    height: 600px;
+    flex-wrap: wrap;
+}
+
+.img1{
+    height: 300px;
+    width: 300px;
+}
